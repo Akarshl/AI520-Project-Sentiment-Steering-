@@ -9,7 +9,7 @@ try:
 except FileNotFoundError:
     sample_prompts = pd.DataFrame(columns=["prompt", "emotion"])
 
-st.title("🎭 Sentiment-Controlled Story Generator")
+st.title("Sentiment-Controlled Story Generator")
 
 # Choose between manual input or sample prompts
 mode = st.radio("Select input mode:", ["Manual Prompt", "Sample Prompt"])
